@@ -2,7 +2,7 @@
 <html>
 
 <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
@@ -13,79 +13,214 @@
     <ul>
       <li class="rrs">
         <img src="https://lh3.googleusercontent.com/proxy/GFAsmNZhMC5oizv65FszEqFRxRL9GvbmJX0R4WxsU6zFlnKRzhaohLaQwNLkTQvHBsSUEYqMoh0nMuV_hEI9f_QEKmgXRaw_mPan3Tj05GwfGpq2X8YJBpSgm30q5zEXhUT1rpHGSGdTgiyRNY5HhWzofYe1cEvxeoeFt8BlgZQQp0kBMLupDqc9SQ=s426" align="center"
-        />RESERVE</li>
-      <li class="home"><img src="https://lh3.googleusercontent.com/-qY-qz8NP6OA/AAAAAAAAAAI/AAAAAAAAAAA/uVqEpyaN3Yw/photo.jpg" align="center"
-        /><a href="#">Home</a>
+        />RESERVE
+        </li>
+      <li class="home"><a href="#">Logout</a>
       </li>
 
     </ul>
   </div>
 
-
   <ul class="tabs">
     <li>
       <input type="radio" name="tabs" id="tab1" checked />
-      <label for="tab1">Guest</label>
+      <label for="tab1">Reservations</label>
       <div id="tab-content1" class="tab-content">
-        <form class="forms">
-          <h3>Make a reservation</h3>
-          Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <input type="date" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Time:
-          <input type="time" />
-          <br>
-          <br>First name:
-          <input type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last name:
-          <input type="text" />
-          <br>
-          <br>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <input type="tel" />
-          <br>
-          <br>Email address:
-          <input type="email" />
-          <br>
-          <br>Party size:&nbsp;&nbsp;
-          <input type="number" />
-          <br>
-          <br>Occasion:&nbsp;&nbsp;&nbsp;
-          <input type="text" />
-          <br>
-          <br>Special instructions:
-          <input type="text" />
-          <br>
-          <br>
-          <input type="submit" name="submit" value="Reserve as guest" class="submit" />&nbsp;&nbsp;&nbsp;
-          <input type="submit" name="submit" value="Login to reserve" class="submit" />
-          <br>
-          <br>
-          <input type="submit" name="submit" value="Change existing reservation" class="submit" />
-        </form>
-
+            
+            <form class="form">
+              RESERVATION LIST<br>
+              <input type="search"/> <input type="submit"/>
+            </form>
+            <table>
+              <thead>
+                <tr>
+                  <th>CNF#</th>
+                  <th>NAME</th>
+                  <th>DATE</th>
+                  <th>PARTY SIZE</th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+                <tr>
+                  <td>RRS123</td>
+                  <td>JOHN DOE</td>
+                  <td>04/15/15</td>
+                  <td>4</td>
+                  <td><button type="button" class="button">Detail</button></td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="pages">
+              <li>
+                <input type="radio" name="pages" id="page1" checked/>
+                <label for="page1"> << </label>
+              </li>
+              <li>
+                <input type="radio" name="pages" id="page1" checked/>
+                <label for="page1">1</label>
+              </li>
+              <li>
+                <input type="radio" name="pages" id="page2" checked/>
+                <label for="page2">2</label>
+              </li>
+              <li>
+                <input type="radio" name="pages" id="page3" checked/>
+                <label for="page3">3</label>
+              </li>
+              <li>
+                <input type="radio" name="pages" id="page4" checked/>
+                <label for="page4">4</label>
+              </li><li>
+                <input type="radio" name="pages" id="page5" checked/>
+                <label for="page5"> >> </label>
+              </li>
+            </ul>
+            
       </div>
+     
     </li>
 
     <li>
       <input type="radio" name="tabs" id="tab2" />
-      <label for="tab2">Owner</label>
+      <label for="tab2">Seating</label>
       <div id="tab-content2" class="tab-content">
-        <form class="forms">
-          <h3>Login</h3>
-          Email:
-          <br>
-          <input type="email" />
-          <br>
-          <br>Password:
-          <br>
-          <input type="password" />
-          <br>
-          <br>
-          <input type="submit" name="submit" value="Submit" class="submit" />
-          <a href="#" class="password">Forgot password?</a>
-        </form>
+        <table>
+          <h3>SEATING</h3>
+          <thead>
+            <tr>
+              <th>TABLE#</th>
+              <th>SIZE</th>
+              <th>STATUS</th>
+              <th>SINCE</th>
+              <th>CNF#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>4</td>
+              <td>RESERVED</td>
+              <td><input type="time" value="19:45"/></td>
+              <td>RRS123</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2</td>
+              <td>OCCUPIED</td>
+              <td><input type="time"/></td>
+              <td>RRS123</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>4</td>
+              <td>OCCUPIED</td>
+              <td><input type="time"/></td>
+              <td>RRS123</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>4</td>
+              <td>EMPTY</td>
+              <td><input type="time"/></td>
+              <td>RRS123</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="seat_chart">
+          <div class="table1">
+            <p>Table 1</p>
+            <p>RESERVED</p>
+          </div>
+          <div class="table2">
+            <p>Table 2</p>
+            <p>OCCUPIED</p>
+          </div>
+          <div class="table3">
+            <p>Table 3</p>
+            <p>OCCUPIED</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab3" />
+      <label for="tab3">Profile</label>
+      <div id="tab-content3" class="tab-content">
+            <form>
+              LOGIN <br> <br>
+              Email Address:<br>
+              <input type="email"/> <br><br>
+              Password:<br>
+              <input type="password"/>
+              
+            </form>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab4" />
+      <label for="tab4">App Settings</label>
+      <div id="tab-content4" class="tab-content">
+            <form>
+              LOGIN <br> <br>
+              Email Address:<br>
+              <input type="email"/> <br><br>
+              Password:<br>
+              <input type="password"/>
+              
+            </form>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab5" />
+      <label for="tab5">Contacts</label>
+      <div id="tab-content5" class="tab-content">
+            <form>
+              LOGIN <br> <br>
+              Email Address:<br>
+              <input type="email"/> <br><br>
+              Password:<br>
+              <input type="password"/>
+              
+            </form>
       </div>
     </li>
   </ul>
 </body>
 
 </html>
-
