@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <li class="rrs">
+        <img src="https://lh3.googleusercontent.com/proxy/GFAsmNZhMC5oizv65FszEqFRxRL9GvbmJX0R4WxsU6zFlnKRzhaohLaQwNLkTQvHBsSUEYqMoh0nMuV_hEI9f_QEKmgXRaw_mPan3Tj05GwfGpq2X8YJBpSgm30q5zEXhUT1rpHGSGdTgiyRNY5HhWzofYe1cEvxeoeFt8BlgZQQp0kBMLupDqc9SQ=s426" align="center"
+        />RESERVE</li>
+      <li class="home"><img src="https://lh3.googleusercontent.com/-qY-qz8NP6OA/AAAAAAAAAAI/AAAAAAAAAAA/uVqEpyaN3Yw/photo.jpg" align="center"
+        /><a href="#">Home</a>
+      </li>
+
+    </ul>
+  </div>
+
+
+  <ul class="tabs">
+    <li>
+      <input type="radio" name="tabs" id="tab1" checked />
+      <label for="tab1">Guest</label>
+      <div id="tab-content1" class="tab-content">
+        <form class="forms">
+          <h3>Make a reservation</h3>
+          Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="date" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Time:
+          <input type="time" />
+          <br>
+          <br>First name:
+          <input type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last name:
+          <input type="text" />
+          <br>
+          <br>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="tel" />
+          <br>
+          <br>Email address:
+          <input type="email" />
+          <br>
+          <br>Party size:&nbsp;&nbsp;
+          <input type="number" />
+          <br>
+          <br>Occasion:&nbsp;&nbsp;&nbsp;
+          <input type="text" />
+          <br>
+          <br>Special instructions:
+          <input type="text" />
+          <br>
+          <br>
+          <input type="submit" name="submit" value="Reserve as guest" class="submit" />&nbsp;&nbsp;&nbsp;
+          <input type="submit" name="submit" value="Login to reserve" class="submit" />
+          <br>
+          <br>
+          <input type="submit" name="submit" value="Change existing reservation" class="submit" />
+        </form>
+
+      </div>
+    </li>
+
+    <li>
+      <input type="radio" name="tabs" id="tab2" />
+      <label for="tab2">Owner</label>
+      <div id="tab-content2" class="tab-content">
+        <form class="forms">
+          <h3>Login</h3>
+          Email:
+          <br>
+          <input type="email" />
+          <br>
+          <br>Password:
+          <br>
+          <input type="password" />
+          <br>
+          <br>
+          <input type="submit" name="submit" value="Submit" class="submit" />
+          <a href="#" class="password">Forgot password?</a>
+        </form>
+      </div>
+    </li>
+  </ul>
+</body>
+
+</html>
+
